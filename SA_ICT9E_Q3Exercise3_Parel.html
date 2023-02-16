@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Q3 | Exercise 3</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <style type="text/css">
+    img{
+      width: 25%;
+      height: 25%;
+    }
+    h2{
+      font-family: 'Oswald', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Bootstrap Tables</h2>
+    <p>Try the different bootstrap table style</p>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col" class="bg-secondary">Rank</th>
+            <th scope="col" class="bg-primary">Athlete</th>
+            <th scope="col" class="bg-info">Brief Description</th>
+            <th scope="col" class="bg-success">Net Worth</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+          <th scope="row">1</th>
+          <td><img src="Jordan.jpg" class="rounded-circle"> &nbsp; Michael Jordan</td>
+          <td>Michael Jordan is a former NBA basketball player from the United States. Jordan split his NBA career between two teams, the Chicago Bulls and Washington Wizards, playing a total of 15 seasons.</td>
+          <td>$2.2 Billion</td>
+          </tr>
+          <tr>
+          <th scope="row">2</th>
+          <td><img src="Vince.jpg" class="rounded-circle"> &nbsp; Vince McMahon</td>
+          <td>Vince McMahon is an American former professional wrestler. He presently serves as WWE's chairman, CEO, and majority owner. In the 1980s, McMahon succeeded his father in running the business.</td>
+          <td>$1.6 Billion</td>
+          </tr>
+          <tr>
+          <th scope="row">3</th>
+          <td><img src="Ion.jpg" class="rounded-circle"> &nbsp; Ion Tiriac</td>
+          <td>Ion Tiriac is a former ice hockey and tennis professional from Romania. Tiriac now owns the Mutua Madrid Open Tennis Tournament after retiring his career as a professional athlete. He also oversees Lucas Pouille, a French tennis pro.</td>
+          <td>$1.2 Billion</td>
+          </tr>
+          <tr>
+          <th scope="row">4</th>
+          <td><img src="Anna.jpg" class="rounded-circle"> &nbsp; Anna Kasprzak</td>
+          <td>Dressage rider Anna Kasprzak of Denmark has competed in the Summer Olympics twice, in 2012 and 2016. Kasprzak is regarded as one of the top dressage riders in the world and has earned numerous medals over the course of her career.</td>
+          <td>$1 Billion</td>
+          </tr>
+          <tr>
+          <th scope="row">5</th>
+          <td><img src="Woods.jpg" class="rounded-circle"> &nbsp; Tiger Woods</td>
+          <td>American professional golfer Tiger Woods is one of golf's most well-known and infamous figures of all time. He is also among the world's highest-paid athletes on an annual basis.</td>
+          <td>$800 Million</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+  <!--Western, D. (2023, January 14). The 30 Richest Athletes in the World. Wealthy Gorilla. Retrieved from https://wealthygorilla.com/top-20-richest-athletes-world/-->
+  <!--Pictures not personally owned. Pictures retrieved from Google.-->
+
+ <div class="container">
+  <h2>SIGN UP NOW</h2>
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+</div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Password:</label>
+      <div class="col-sm-10">          
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+      </div>
+    </div>
+  <u><b style="cursor: pointer; margin-left: 190px; color: darkblue; ">Terms & Conditions</b></u>
+<div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label><input type="checkbox" name="remember"> Remember me</label>
+        </div>
+      </div>
+    </div>
+<div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label><input type="checkbox" name="T&C"> Accept Terms & Conditions</label>
+        </div>
+      </div>
+    </div>
+<div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-success btn-block">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>
